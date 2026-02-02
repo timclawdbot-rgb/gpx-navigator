@@ -21,7 +21,7 @@ npm install
 npx expo start
 ```
 
-If you’re running inside a VM / tricky network, tunnel mode works well:
+Tunnel mode can help if your phone can’t reach your dev server over LAN:
 
 ```bash
 npx expo start --tunnel
